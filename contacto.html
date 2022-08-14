@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title> Contacto </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Caveat:wght@700&family=Inter:wght@400;500&family=Mouse+Memoirs&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="nav-header">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="curriculum.html">Curriculum</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <img class="fotobanner2" src="imagenes/Rivera2.png" alt="" />
+        <p class="bannertex">Contacto</p>
+      </div>
+      <section>
+        <article class="contact">
+          <div>
+            <h1>Contacto</h1>
+            <p>Telefono: +506 1968-4755</p>
+            <p>Gmail: candres.ris@gmail.com</p>
+          </div>
+          <form class="form" action="#">
+            <label for="Nombre">
+              <input
+                type="text"
+                name="Normbre"
+                placeholder="Nombre completo"
+                required
+              />
+            </label>
+            <label for="email">
+              <input type="email" name="email" placeholder="Correo" required />
+            </label>
+            <label for="Motivo"></label>
+            <select name="Motivo" id="Motivo">
+              <option value="">Motivo de contacto</option>
+              <option value="1">Pregunta</option>
+              <option value="2">Queja</option>
+              <option value="3">Recomendación</option>
+              <option value="4">Comentario</option>
+            </select>
+            <br />
+            <h2>Escriba su mensaje</h2>
+            <textarea name="textarea" placeholder="Escribir......"></textarea>
+            <br />
+            <input type="submit" class="button" value="Enviar" />
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="container2">
+        <div id="footer">
+          <div class="foot1">
+            <p><b>&copy; 2022, Andres Rivera</b>,</p>
+            <p>Todos los derechos reservados</p>
+          </div>
+          <div class="foot2">
+            <a href="#">Políticas de Privacidad</a>
+            <a href="#">Términos y Condiciones</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

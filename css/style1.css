@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding: 70px;
+}
+
+body {
+  background: var(--primario);
+  color: var(--texto);
+  line-height: 1.5;
+  min-width: 360px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Caveat", "cursive";
+  font-size: xx-large;
+}
+
+h3 {
+  font-family: "Caveat", "cursive";
+  font-size: 30px;
+}
+
+h4 {
+  font-family: "Caveat", "cursive";
+  font-size: 20px;
+}
+
+:root {
+  --fondohover: rgb(53, 248, 255);
+  --hover: rgb(127, 0, 155);
+  --primario: rgb(43, 1, 77);
+  --secundario: rgb(255, 57, 156);
+  --texto: white;
+}
+
+/* Header */
+
+.fotobanner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -30px;
+}
+
+.bannertex {
+  color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  font-size: 4vw;
+  position: absolute;
+  text-align: left;
+  width: 750px;
+  z-index: 2;
+  top: 300px;
+  left: 150px;
+}
+
+.container1 {
+  background-color: transparent;
+  opacity: 0.88;
+  position: fixed;
+  width: 100vw;
+  z-index: 80;
+}
+
+.nav-header {
+  margin: 0px;
+  padding: 20px;
+  text-align: right;
+}
+
+.nav-header li {
+  display: inline;
+  font-family: "Caveat", "cursive";
+  font-size: 1.5em;
+  list-style: none;
+  margin: 10px;
+  padding: 20px;
+}
+
+.nav-header li:hover {
+  background-color: rgba(255, 235, 235, 0);
+}
+
+/* main*/
+
+a {
+  color: var(--texto);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover);
+}
+
+img {
+  border-radius: 10px;
+  height: auto;
+  margin: 26px 0px 12px 0px;
+  width: 100%;
+}
+
+p {
+  font-weight: 300;
+  margin: 16px 0px;
+  text-align: justify;
+}
+
+section {
+  margin-bottom: 38px;
+}
+
+input {
+  border-radius: 8px;
+  height: 34px;
+  width: 100%;
+}
+
+form {
+  min-width: 300px;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav-bar {
+  margin-right: 10%;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 8px;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+}
+
+#welcome-section p {
+  text-align: center;
+}
+
+.button {
+  background-color: var(--secundario);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  color: var(--texto);
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  padding: 10px 40px;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.button:hover {
+  background-color: rgb(60, 198, 205);
+  color: var(--texto);
+}
+
+.datos p {
+  text-align: left;
+}
+
+#Contáctame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#coments {
+  border-radius: 8px;
+  min-height: 120px;
+  resize: vertical;
+  width: 100%;
+}
+
+.redes {
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+}
+
+.redes .red1,
+.redes .red2 {
+  margin: 0px 6px;
+}
+
+.red1 a,
+.red2 a {
+  margin: 0px 6px;
+}
+
+/* footer*/
+
+footer {
+  background: var(--secundario);
+  font-family: "Caveat", "cursive";
+  padding: 24px 0px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+@media (min-width: 960px) {
+  #acerca {
+    display: flex;
+  }
+
+  #acerca .div1 {
+    margin-right: 38px;
+  }
+
+  #contacto {
+    display: flex;
+  }
+
+  #contacto .contac1 {
+    font-family: "Caveat", "cursive";
+    margin-right: 38px;
+  }
+
+  #contacto .contac2 {
+    margin-left: 7%;
+    margin-top: 7%;
+    text-align: center;
+  }
+
+  .redes {
+    margin-left: 7%;
+  }
+
+  .red1 a,
+  .red2 a {
+    display: block;
+    margin: 16px 26px;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .foot2 {
+    margin-top: 20px;
+  }
+
+  .foot2 a {
+    text-align: right;
+  }
+
+  .foot2 p {
+    text-align: left;
+  }
+}
